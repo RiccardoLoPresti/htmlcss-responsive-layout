@@ -174,6 +174,7 @@ section.bg-purple .col p{
 
 section.bg-purple .box{
   background-color: white;
+  border-radius: 50px;
 }
 
 section.bg-purple .box img{
