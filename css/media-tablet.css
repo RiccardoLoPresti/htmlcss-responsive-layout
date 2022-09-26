@@ -68,4 +68,21 @@
     width: calc(100% / 2 - 20px);
     margin-top: 10px;
   }
+
+  section.about-us{
+    display: flex;
+  }
+
+  section.about-us .text{
+    width: 50%;
+  }
+
+  section.about-us .col{
+    width: 40%;
+  }
+
+  footer.bg-dark .container{
+    width: 400px;
+  }
+
 }

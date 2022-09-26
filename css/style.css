@@ -58,6 +58,10 @@ h3{
   background-color: #9593e6;
 }
 
+.bg-dark{
+  background-color:#333333 ;
+}
+
 .btn-b{
   background-color: #0084fd;
   border-radius: 20px;
@@ -304,4 +308,48 @@ section.benefits .button a{
   color: white;
 }
 
+section.about-us{
+  margin-bottom: 60px;
+}
 
+section.about-us .text h2,
+section.about-us .col h2{
+  color: #9593e6;
+}
+
+section.about-us .text p{
+  line-height: 34px;
+}
+
+section.about-us .col img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+section.about-us .button a{
+  text-decoration: none;
+  color: white;
+}
+
+section.about-us .button a::before{
+  font-family: fontawesome;
+  content: '\f08c';
+}
+
+
+
+/* FOOTER */
+footer.bg-dark{
+  text-align: center;
+}
+
+footer.bg-dark .text p{
+  color: white;
+}
+
+footer.bg-dark .text  a{
+  color: #9593e6;
+}
