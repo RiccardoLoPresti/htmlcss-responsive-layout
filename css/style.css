@@ -19,6 +19,11 @@ img{
   max-width: 100%;
 }
 
+h2{
+  color: white;
+  font-size: 1.9rem;
+}
+
 h3{
   color:#0084fd ;
   font-size: 1.3rem;
@@ -41,11 +46,24 @@ h3{
   text-align: center;
 }
 
+.bg-purple{
+  background-color: #9593e6;
+}
+
 .btn-b{
   background-color: #0084fd;
   border-radius: 20px;
   color: white;
   padding: 10px 50px;
+}
+
+.btn-p{
+  background-color: #9593e6;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .btn-b:active{
@@ -85,7 +103,7 @@ section .box{
   margin-bottom:20px ;
 }
 
-section .box:last-child{
+section > .box:last-child{
   margin-bottom: 100px;
 }
 
@@ -133,5 +151,49 @@ section .col i{
   margin-bottom: 30px;
 }
 
+section.bg-purple{
+  padding-bottom: 40px;
+}
 
+section.bg-purple .col img{
+  padding-top: 70px;
+}
 
+section.bg-purple .col h2{
+  margin-top: 70px;
+  margin-bottom: 60px;
+  text-align: start;
+}
+
+section.bg-purple .col p{
+  color: white;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: start;
+}
+
+section.bg-purple .box{
+  background-color: white;
+}
+
+section.bg-purple .box img{
+  margin-bottom: 20px;
+}
+
+section.bg-purple .box h3,
+section.bg-purple .box p{
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align-last: center;
+}
+
+section.bg-purple .box p{
+  font-style: italic;
+}
+
+section.bg-purple .box a i{
+  color: black;
+  line-height: 50px;
+  font-size: 1rem;
+}
