@@ -1,0 +1,48 @@
+@media (min-width:1153px){
+  /* UTILITIES */
+  .container{
+    width: 1140px;
+  }
+
+  .btn{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+  }
+
+  .btn:hover{
+    background-color: rgb(204, 204, 204);
+  }
+
+  /* HEADER */
+  .list{
+    display: flex;
+  }
+
+  .list ul{
+    display: flex;
+  }
+
+  .list ul li{
+    list-style: none;
+    padding:30px ;
+  }
+
+  .list ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .list ul li a:hover{
+   text-decoration: underline;
+  }
+
+  .list ul li a.btn{
+    color: black;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+}
