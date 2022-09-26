@@ -41,14 +41,14 @@ h3{
   text-align: center;
 }
 
-.btn{
+.btn-b{
   background-color: #0084fd;
   border-radius: 20px;
   color: white;
   padding: 10px 50px;
 }
 
-.btn:active{
+.btn-b:active{
   background-color: #65b4ff;
 }
 
@@ -107,13 +107,13 @@ section .button{
   padding: 40px 0px;
 }
 
-section .button a.btn{
+section .button a.btn-b{
   text-decoration: none;
   font-weight:bold ;
   letter-spacing: 2px;
 }
 
-section .button a.btn::before{
+section .button a.btn-b::before{
   font-family: Fontawesome;
   content:'\f179' ;
 }

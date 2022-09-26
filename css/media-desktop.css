@@ -45,4 +45,13 @@
     display: none;
   }
 
+  /* MAIN */
+  section .box.first{
+    display: flex;
+  }
+
+  section .box-img img{
+    width: 100%;
+  }
+
 }
