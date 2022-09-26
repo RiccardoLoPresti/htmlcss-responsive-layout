@@ -42,6 +42,14 @@ h3{
   padding: 0 30px;
 }
 
+.padding-t{
+  padding-top: 60px;
+}
+
+.padding-b{
+  padding-bottom: 60px;
+}
+
 .text-c{
   text-align: center;
 }
@@ -64,6 +72,12 @@ h3{
   height: 50px;
   margin: 0 auto;
   text-align: center;
+}
+
+.btn-p-long{
+  padding: 10px 40px;
+  border-radius: 30px;
+
 }
 
 .btn-b:active{
@@ -227,6 +241,10 @@ section.partner .box {
   margin-top: 20px;
 }
 
+section.partner>.box:last-child{
+  padding-bottom: 40px;
+}
+
 section.partner .box img{
   border-radius: 50%;
   height: 200px;
@@ -245,3 +263,45 @@ section.partner .box h3{
   color: white;
   padding-top: 20px;
 }
+
+section.benefits h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section.benefits .box{
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+section.benefits .text-p{
+  text-align: start;
+}
+
+section.benefits .text-p h2,
+section.benefits .text-p h4{
+  color: #9593e6;
+  text-align: start;
+}
+
+section.benefits .text-p h4{
+  font-size: 4rem;
+}
+
+section.benefits .text-p h2{
+  margin-bottom: 40px;
+}
+
+section.benefits .text-p p{
+  text-align: start;
+  text-align-last: left;
+  color: #5a6e7f;
+}
+
+section.benefits .button a{
+  text-decoration: none;
+  color: white;
+}
+
+

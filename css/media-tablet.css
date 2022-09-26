@@ -37,6 +37,10 @@
     margin-bottom: 0px;
   }
 
+  section.partner>.box:last-child{
+    margin-bottom: 100px;
+  }
+
   section.partner .text{
     display: flex;
     flex-direction: column;
@@ -47,5 +51,21 @@
 
   section.partner .box img{
     margin-bottom: 0;
+  }
+
+  section.benefits .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+  }
+
+  section.benefits h2{
+    font-size: 3rem;
+  }
+
+  section.benefits .box{
+    width: calc(100% / 2 - 20px);
+    margin-top: 10px;
   }
 }
