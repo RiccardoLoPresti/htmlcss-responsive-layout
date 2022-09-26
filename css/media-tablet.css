@@ -81,6 +81,12 @@
     width: 40%;
   }
 
+  section.get-started .col{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
   footer.bg-dark .container{
     width: 400px;
   }

@@ -95,5 +95,8 @@
     padding: 0;
   }
 
-  
+  section.get-started .col{
+    width: 600px;
+    margin: 0 auto;
+  }
 }
