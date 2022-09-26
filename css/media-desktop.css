@@ -73,4 +73,8 @@
   section.bg-purple .col img{
     padding-top: 130px;
   }
+
+  section.partner{
+    width: 1140px;
+  }
 }
