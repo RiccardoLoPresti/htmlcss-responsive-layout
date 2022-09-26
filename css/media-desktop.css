@@ -54,4 +54,23 @@
     width: 100%;
   }
 
+  section.bg-purple .container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  section.bg-purple .col{
+    width: 30%;
+  }
+
+  section.bg-purple .box{
+    margin-top: 300px;
+    width: 35%;
+    height: 600px;
+  }
+
+  section.bg-purple .col img{
+    padding-top: 130px;
+  }
 }
