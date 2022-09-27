@@ -262,42 +262,41 @@ nav{
   padding-top: 20px;
 }
 
-section.benefits h2{
+#benefits h2{
   text-align: center;
   margin-bottom: 40px;
 }
 
-section.benefits .box{
+#benefits .box{
+  background-color: white;
   border-radius: 20px;
-  margin-top: 60px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
-section.benefits .text-p{
+#benefits .col{
   text-align: start;
 }
 
-section.benefits .text-p h2,
-section.benefits .text-p h4{
+#benefits .col h2,
+#benefits .col h4{
   color: #9593e6;
   text-align: start;
 }
 
-section.benefits .text-p h4{
+#benefits .col h4{
   font-size: 4rem;
 }
 
-section.benefits .text-p h2{
+#benefits .col h2{
   margin-bottom: 40px;
 }
 
-section.benefits .text-p p{
-  text-align: start;
-  text-align-last: left;
+#benefits .col p{
   color: #5a6e7f;
+  margin-bottom: 40px;
 }
 
-section.benefits .button a{
+#benefits .button a{
   text-decoration: none;
   color: white;
 }
