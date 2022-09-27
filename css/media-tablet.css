@@ -14,8 +14,9 @@
     width: calc(33.333% - 20px) ;
   }
 
-  section.bg-purple .box{
-    width: 100%;
+  
+  #planning .box{
+    padding: 40px;
   }
 
   section.partner{

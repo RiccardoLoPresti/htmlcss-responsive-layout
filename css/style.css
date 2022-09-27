@@ -65,6 +65,10 @@ a{
   padding-top: 40px;
 }
 
+.p-t-60{
+  padding-top: 60px;
+}
+
 .p-b-60{
   padding-bottom: 60px;
 }
@@ -185,55 +189,39 @@ nav{
   margin-bottom: 30px;
 }
 
-
-
-
-section.bg-purple{
-  padding-bottom: 40px;
-}
-
-section.bg-purple .col img{
-  padding-top: 70px;
-}
-
-section.bg-purple .col h2{
-  margin-top: 70px;
-  margin-bottom: 60px;
+#planning .col h2{
   text-align: start;
 }
 
-section.bg-purple .col p{
+#planning .col p{
   color: white;
-  font-weight: 400;
   margin-bottom: 40px;
   text-align: start;
 }
 
-section.bg-purple .box{
+#planning .box{
   background-color: white;
   border-radius: 50px;
+  padding-bottom: 20px;
 }
 
-section.bg-purple .box img{
+#planning .box img{
   margin-bottom: 20px;
 }
 
-section.bg-purple .box h3,
-section.bg-purple .box p{
-  color: black;
-  text-align: center;
+#planning .box h3,
+#planning .box p,
+#planning .box a i{
+  color: #333333;
   margin-bottom: 20px;
-  text-align-last: center;
 }
 
-section.bg-purple .box p{
-  font-style: italic;
-}
-
-section.bg-purple .box a i{
-  color: black;
+#planning .box a i{
   line-height: 50px;
-  font-size: 1rem;
+}
+
+#planning .box p{
+  font-style: italic;
 }
 
 section .testimonial{

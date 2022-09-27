@@ -3,6 +3,7 @@
   .container{
     width: 1140px;
   }
+
   .btn{
     background-color: white;
     border-radius: 20px;
@@ -57,27 +58,28 @@
 
   #demo .box-img img{
     object-fit: cover;
-    
   }
 
-  section.bg-purple .container{
+  #planning .container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    width: 870px;
+    gap: 80px;
   }
 
-  section.bg-purple .col{
-    width: 30%;
+  #planning .col{
+    width: 50%;
   }
 
-  section.bg-purple .box{
-    margin-top: 300px;
-    width: 35%;
-    height: 600px;
+  #planning .box{
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    margin-top: 180px ;
   }
 
-  section.bg-purple .col img{
-    padding-top: 130px;
+  #planning .box img{
+    width: 70%;
   }
 
   section.partner{
