@@ -243,7 +243,8 @@ nav{
   margin-bottom: 40px;
 }
 
-#testimonial .box img{
+#testimonial .box img,
+#about-us .col img{
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -301,55 +302,74 @@ nav{
   color: white;
 }
 
-section.about-us{
-  margin-bottom: 60px;
-}
-
-section.about-us .text h2,
-section.about-us .col h2{
+#about-us .col h2{
   color: #9593e6;
-}
-
-section.about-us .text p{
-  line-height: 34px;
-}
-
-section.about-us .col img{
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
   margin-bottom: 20px;
 }
 
-section.about-us .button a{
+#about-us .col p{
+  color: #333333;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  line-height: 2.2;
+}
+
+#about-us .button a{
   text-decoration: none;
   color: white;
 }
 
-section.about-us .button a::before{
+#about-us .button a::before{
   font-family: fontawesome;
   content: '\f08c';
 }
-section.get-started .col h3{
+
+#get-start .col h4{
   text-transform: uppercase;
   color: rgb(224, 224, 224);
-  text-align: center;
   font-weight: 400;
+  padding-bottom: 20px;
 }
-section.get-started .button a{
+
+#get-start .col h3{
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+#get-start .col h2{
+  color: #fdc15f;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+#get-start .col p{
+  color: white;
+  padding-bottom: 40px;
+}
+
+#get-start .col a{
+  color: white;
+  text-decoration: underline;
+}
+
+#get-start .button{
+padding-bottom: 40px;
+}
+
+#get-start .button a{
+  color: #9593e6;
   text-decoration: none;
 }
 
-/* FOOTER */
-footer.bg-dark{
-  text-align: center;
-}
 
+/* FOOTER */
 footer.bg-dark .text p{
   color: white;
+  font-size: 0.8rem;
+  padding-bottom: 60px;
 }
 
 footer.bg-dark .text  a{
   color: #9593e6;
+  text-decoration: underline;
 }

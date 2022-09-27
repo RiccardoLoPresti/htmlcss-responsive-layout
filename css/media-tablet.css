@@ -47,25 +47,26 @@
     width: calc(100% / 2 - 20px);
   }
 
-  section.about-us{
+  #about-us .container{
+    width: 750px;
+    justify-content:space-around ;
+  }
+  
+  #about-us .col{
     display: flex;
-  }
-
-  section.about-us .text{
+    flex-direction: column;
+    align-items: center;
+    text-align:start;
     width: 50%;
+    padding: 0 40px;
   }
 
-  section.about-us .col{
-    width: 40%;
+  #about-us .col h2:first-child{
+    font-size:4rem;
   }
 
-  section.get-started .col{
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  /* FOOTER */
-  footer.bg-dark .container{
-    width: 400px;
+  #about-us .col img{
+    width: 250px;
+    height: 250px;
   }
 }

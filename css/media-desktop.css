@@ -90,8 +90,15 @@
     width: calc(100% / 3 - 20px);
   }
 
-  section.get-started .col{
-    width: 600px;
-    margin: 0 auto;
+  #about-us .container{
+    width: 1080px;
+  }
+
+  #get-start .container{
+    width: 520px;
+  }
+
+  footer .container{
+    width: 520px;
   }
 }
