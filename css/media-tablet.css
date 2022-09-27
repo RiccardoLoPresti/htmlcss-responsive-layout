@@ -1,25 +1,17 @@
-@media (min-width:769px){
-  section{
+@media (min-width:768px){
+  #demo .container{
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
   }
 
-  section.container{
-    justify-content: center;
-    padding: 0px;
+  #demo .box:first-child{
+    width: calc(66.666% - 20px);
   }
 
-  section .box.first{
-    width: calc(60% - 20px);
-  }
-
-  section .box{
-    width: calc(30% - 20px) ;
-  }
-
-  section>.box:nth-last-child(-n+3){
-    margin-bottom: 100px;
+  #demo .box{
+    width: calc(33.333% - 20px) ;
   }
 
   section.bg-purple .box{

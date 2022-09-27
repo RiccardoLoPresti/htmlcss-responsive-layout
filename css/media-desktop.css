@@ -3,55 +3,61 @@
   .container{
     width: 1140px;
   }
-
   .btn{
     background-color: white;
     border-radius: 20px;
     padding: 10px 15px;
   }
-
+  
   .btn:hover{
     background-color: rgb(204, 204, 204);
   }
-
+  
   /* HEADER */
-  .list{
+  .desktop-menu{
     display: flex;
   }
 
-  .list ul{
-    display: flex;
+  .mobile-menu{
+    display: none;
   }
 
-  .list ul li{
+  .desktop-menu ul li{
     list-style: none;
     padding:30px ;
   }
 
-  .list ul li a{
-    text-decoration: none;
+  .desktop-menu ul li a{
     color: white;
   }
 
-  .list ul li a:hover{
+  .desktop-menu ul li a:hover{
    text-decoration: underline;
   }
 
-  .list ul li a.btn{
+  .desktop-menu ul li a.btn{
     color: black;
   }
 
-  .hamburger{
-    display: none;
-  }
 
   /* MAIN */
-  section .box.first{
+  #demo .box{
     display: flex;
   }
 
-  section .box-img img{
-    width: 100%;
+  #demo .col.first{
+    width: 50%;
+  }
+
+  #demo .box-img{
+    width: 50%;
+    justify-content: end;
+    flex-shrink: 0;
+  }
+
+  #demo .box-img img{
+    object-fit: cover;
+    
   }
 
   section.bg-purple .container{
