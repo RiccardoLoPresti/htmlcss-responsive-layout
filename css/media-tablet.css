@@ -19,31 +19,18 @@
     padding: 40px;
   }
 
-  section.partner{
-    align-items: center;
-    width: 90%;
-  }
 
-  section.partner .box{
+  #testimonial .box{
     display: flex;
     width: 100%;
-    margin-bottom: 0px;
   }
 
-  section.partner>.box:last-child{
-    margin-bottom: 100px;
-  }
-
-  section.partner .text{
+  #testimonial .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: start;
     padding-left: 40px;
-  }
-
-  section.partner .box img{
-    margin-bottom: 0;
   }
 
   section.benefits .container{

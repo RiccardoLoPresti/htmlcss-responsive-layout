@@ -82,8 +82,8 @@
     width: 70%;
   }
 
-  section.partner{
-    width: 1140px;
+  #testimonial .text{
+    padding-left: 60px;
   }
 
   section.benefits .container{

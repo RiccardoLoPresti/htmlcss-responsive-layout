@@ -29,7 +29,6 @@ h2{
 }
 
 h3{
-  color:#0084fd ;
   font-size: 1.3rem;
 }
 
@@ -157,6 +156,7 @@ nav{
 }
 
 #demo .col h3{
+  color: #0084fd;
   margin-bottom: 25px;
 }
 
@@ -224,39 +224,26 @@ nav{
   font-style: italic;
 }
 
-section .testimonial{
-  text-align: center;
-}
 
-section .testimonial h3{
-  color: black;
+#testimonial .col h3{
   font-weight: 400;
   margin-top: 60px;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 
-section .testimonial h2{
+#testimonial .col h2{
   color: #9593e6;
   margin-bottom: 30px;
 }
 
-section.partner{
-  flex-direction: column;
-}
-
-section.partner .box {
+#testimonial .box {
   background-color: #9593e6;
   border-radius: 50px;
-  text-align: center;
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-section.partner>.box:last-child{
-  padding-bottom: 40px;
-}
-
-section.partner .box img{
+#testimonial .box img{
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -264,13 +251,13 @@ section.partner .box img{
   margin-bottom: 20px;
 }
 
-section.partner .box p{
+#testimonial .box p{
+  font-family:'Times New Roman', Times, serif;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
-section.partner .box h3{
+#testimonial .box h3{
   color: white;
   padding-top: 20px;
 }
